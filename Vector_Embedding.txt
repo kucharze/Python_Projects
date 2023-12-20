@@ -20,3 +20,10 @@
 #Image embeddings
 
 #Primary applications
+Recommendeation systems
+Anomaly detection
+Transfer learning
+Visualizations
+Information retreival
+Audio + Speech processing
+Facial Recognition
