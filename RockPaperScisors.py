@@ -9,8 +9,11 @@ while True:
         break
 
     if user_input not in ["rock", "paper", "scissors"]:
+        print("Invalid input. Try again.")
         continue
 
+    print("You picked", user_input + ".")
+    
     random_number = random.randint(0, 2)
     # rock: 0, paper: 1, scissors: 2
     computer_pick = ["rock", "paper", "scissors"][random_number]
@@ -31,6 +34,8 @@ while True:
     else:
         print("You lost!")
         computer_wins += 1
+
+    print("Computer picked", computer_pick + ".")
 
 print("You won", user_wins, "times.")
 print("The computer won", computer_wins, "times.")
