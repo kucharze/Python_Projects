@@ -1,3 +1,5 @@
+#Based off of a coding project in the following video: https://www.youtube.com/watch?v=NpmFbWO6HPU
+
 import random
 
 user_wins = 0
@@ -35,7 +37,6 @@ while True:
         print("You lost!")
         computer_wins += 1
 
-    print("Computer picked", computer_pick + ".")
 
 print("You won", user_wins, "times.")
 print("The computer won", computer_wins, "times.")
