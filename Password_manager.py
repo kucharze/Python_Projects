@@ -2,14 +2,15 @@
 
 pwd = input("What is the master password? ")
 
-
-
 def view():
     pass
 
-
 def add():
-    pass
+    name = inpiut("Account Name: ")
+    pwd = input("Password: ")
+
+    with open("passwords.txt", 'a') as f:#Open file for this section only for appending
+        f.write(name + "|" + pwd + "\n")
 
 mode = input(
     "Would you like to add an entry, view entries, or quit? (add/view/quit) ").lower()
