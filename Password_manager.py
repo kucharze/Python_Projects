@@ -2,6 +2,11 @@
 from cryptography.fernet import Fernet
 #encryption module
 
+def write_key():
+    key = Fernet.generate_key()
+    with open("key.key", "wb") as key_file:#wb Write bites
+        key_file.write(key)
+
 def view():
     with open("passwords.txt", 'r') as f:
         for line in f.readlines():
@@ -19,6 +24,7 @@ def add():
 
 
 pwd = input("What is the master password? ")
+
 
 
 mode = input(
