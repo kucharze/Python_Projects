@@ -14,6 +14,8 @@ def load_key():
     file.close()
     return key
 
+
+
 def view():
     with open("passwords.txt", 'r') as f:
         for line in f.readlines():
@@ -30,8 +32,9 @@ def add():
         f.write(name + "|" + pwd + "\n")
 
 
+key = load_key()
+fernet = Fernet(key)
 pwd = input("What is the master password? ")
-
 
 
 mode = input(
