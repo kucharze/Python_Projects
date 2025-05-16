@@ -1,11 +1,18 @@
 #Based off of a coding project in the following video: https://www.youtube.com/watch?v=NpmFbWO6HPU
 from cryptography.fernet import Fernet
 #encryption module
-
+'''
 def write_key():
     key = Fernet.generate_key()
     with open("key.key", "wb") as key_file:#wb Write bites
         key_file.write(key)
+'''
+
+def load_key():
+    file = open("key.key", "rb")#rb Read bytes
+    key = file.read()
+    file.close()
+    return key
 
 def view():
     with open("passwords.txt", 'r') as f:
