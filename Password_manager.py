@@ -5,9 +5,10 @@ pwd = input("What is the master password? ")
 def view():
     with open("passwords.txt", 'r') as f:
         for line in f.readlines():
-            data = line.rstrip()
-            service, password = data.split(":")
-            print("Service: " + service + " | Password: " + password)
+            data = line.rstrip()#Rstrip is to remove the \n
+            user, passw = data.split("|")#split the data into array
+            print("User: ", user, " Password: ", passw)
+            
 
 def add():
     name = input("Account Name: ")
