@@ -2,6 +2,15 @@
 
 pwd = input("What is the master password? ")
 
+
+
+def view():
+    pass
+
+
+def add():
+    pass
+
 mode = input(
     "Would you like to add an entry, view entries, or quit? (add/view/quit) ").lower()
 
