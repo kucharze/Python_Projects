@@ -1,5 +1,6 @@
 #Based off of a coding project in the following video: https://www.youtube.com/watch?v=NpmFbWO6HPU
-
+from cryptography.fernet import Fernet
+#encryption module
 
 def view():
     with open("passwords.txt", 'r') as f:
