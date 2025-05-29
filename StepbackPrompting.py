@@ -28,5 +28,11 @@ example_prompt = ChatPromptTemplate.from_messages([
 few_shot_prompt = FewShotChatMessagePromptTemplate(
     examples=examples,
     example_prompt=example_prompt,
-    input_variables=["input", "output"]
+    # input_variables=["input", "output"]
 )
+
+prompt = ChatPromptTemplate.from_messages([
+    ("system", "You are an expert at world knowledge. Your task is to step back and paraphrase a question to a more generic step-back question, which is easier to answer."),
+    few_shot_prompt,
+    ("user", "{question}")
+])
