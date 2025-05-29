@@ -19,5 +19,14 @@ examples = [
 ]
 
 example_prompt = ChatPromptTemplate.from_messages([
-    
+    [
+        ('human', '{input}?'),
+        ('ai', '{output}')
+    ]
 ])
+
+few_shot_prompt = FewShotChatMessagePromptTemplate(
+    examples=examples,
+    example_prompt=example_prompt,
+    input_variables=["input", "output"]
+)
