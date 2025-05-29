@@ -18,3 +18,6 @@ examples = [
     },
 ]
 
+example_prompt = ChatPromptTemplate.from_messages([
+    
+])
