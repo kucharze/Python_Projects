@@ -3,6 +3,7 @@
 from langchain.utilities import DuckDuckGoSearchAPIWrapper
 import os
 from langchain.prompts import ChatPromptTemplate
+from langchain.prompts.few_shot import FewShotChatMessagePromptTemplate
 
 # Set your OpenAI API key here
 os.environ["OPENAI_API_KEY"] = "sk-xxxxxxxxxxxxxxx"
