@@ -8,4 +8,7 @@ import sys
 import pyautogui
 
 def roll():
-    pass
+    min_val = 1
+    max_val = 6
+
+    return random.randint(min_val, max_val)
