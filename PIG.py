@@ -6,3 +6,6 @@ import os
 import time
 import sys
 import pyautogui
+
+def roll():
+    pass
