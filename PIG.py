@@ -26,3 +26,22 @@ max_score = 50
 #Underscore used for placeholders when we don't want to use variable
 player_scores = [0 for _ in range(players)]
 
+while max(player_scores) < max_score:
+
+    current_score = 0
+
+    should_roll = input("Would you like to role?(y)").lower()
+    
+    if should_roll != 'y':
+        break
+
+
+    value = roll()
+    if value == 1:
+        print("You rolled a 1, your turn is over")
+    else:
+        print("You rolled a ", value)
+        
+
+
+    
