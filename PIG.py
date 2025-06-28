@@ -20,3 +20,9 @@ while True:
     else:
         print("Invalid input. Please enter a number.")
 
+
+max_score = 50
+
+#Underscore used for placeholders when we don't want to use variable
+player_scores = [0 for _ in range(players)]
+
