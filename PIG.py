@@ -13,6 +13,11 @@ def roll():
 
     return random.randint(min_val, max_val)
 
+while True:
+    players = input("Enter the number of players: ")
+    if players.isdigit():
+        players = int(players)
+        break
+    else:
+        print("Invalid input. Please enter a number.")
 
-players = input("Enter the number of players: ")
-players = int(players)
