@@ -12,3 +12,7 @@ def roll():
     max_val = 6
 
     return random.randint(min_val, max_val)
+
+
+players = input("Enter the number of players: ")
+players = int(players)
