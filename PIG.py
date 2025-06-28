@@ -28,7 +28,7 @@ player_scores = [0 for _ in range(players)]
 
 while max(player_scores) < max_score:
 
-    for i in range(players):
+    for player_idx in range(players):
         print("Player", i + 1, "turn")
         current_score = 0
 
@@ -48,5 +48,8 @@ while max(player_scores) < max_score:
                 
 
             print("Your current score is", current_score)
+
+        player_scores[player_idx] += current_score
+        print("Your total score is", player_scores[player_idx])
 
     
