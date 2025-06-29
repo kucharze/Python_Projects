@@ -4,3 +4,6 @@ logs = [
     {"response": "I'm an AI."},
     {"input": "Bye", "response": "Goodbye!"}
 ]
+
+for log in logs:
+    print(log)
