@@ -1,0 +1,1 @@
+bad_words = ['hate', 'dumb', 'stupid']
