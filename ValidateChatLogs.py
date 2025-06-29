@@ -7,3 +7,8 @@ logs = [
 
 for log in logs:
     print(log)
+
+    if "input" in log and "response" in log:
+        print("Valid log")
+    else:
+        print("Invalid log")
