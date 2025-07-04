@@ -12,3 +12,7 @@ for log in logs:
         print("Valid log")
     else:
         print("Invalid log")
+        del log
+
+
+print(logs)
