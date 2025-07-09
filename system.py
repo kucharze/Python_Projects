@@ -1,2 +1,2 @@
 import sys
-sys.getrecursionlimit()
+print(sys.getrecursionlimit())
