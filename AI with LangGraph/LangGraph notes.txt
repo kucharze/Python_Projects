@@ -1,8 +1,31 @@
 These notes and the files in this folder are based on the video from the following link
 https://www.freecodecamp.org/news/learn-langgraph-and-build-conversational-ai-with-python/
 
+Elements
 
 State
 - A Shared data tructure that holds the current info or context of app
 - The application's memory
 
+Node
+- Individual functions and operations that perform specfic tasks within the graph
+- Each node recieves input, processes it, and produces an output or updated state
+
+Graph
+- The overarching structure
+- Maps out how different tasks(nodes) are connected and executed
+- Visualy represents the workflow
+- Think of as a road map that determines what routes you can take
+
+Edges
+- The connections between nodes
+- Determines the flow of execution
+- Tell us which node should be executed next after the current one
+-- Conditional Edges
+--- Specialized connections that decide the next node the execute based on specfic conditions or logic applied to the current state
+--- Think of like a traffic light
+
+Start node
+- A virtual entry pointn in LangGraph, marking here the workflow begins
+- Doesn't perform any operations itself
+- Serves as the designated starting position for the graph's execution
