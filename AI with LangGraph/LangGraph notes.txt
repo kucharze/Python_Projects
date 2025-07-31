@@ -29,3 +29,13 @@ Start node
 - A virtual entry pointn in LangGraph, marking here the workflow begins
 - Doesn't perform any operations itself
 - Serves as the designated starting position for the graph's execution
+
+End node
+- Signifies the conclusion of workflow in LangGraph
+- Upn reaching this node, execution stops, indicating that all intended processes have been compleated.
+
+
+Tools
+- Specialized functions or utilities that nodes can utilize to perform specfic tasks such as fetching data from an API
+- Enhance the capabilites of nodes by providing addtional fnctionalites
+- Nodes are part of graph structure, while tools are functionalities used with nodes
