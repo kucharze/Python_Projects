@@ -1,6 +1,6 @@
 from typing import Any
 
-def print_any(any_value: Any) -> None:
+def print_any(any_value: Any) -> None:#Any can be any data structure
     print(any_value)
 
 print_any(1)
