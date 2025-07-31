@@ -1,0 +1,3 @@
+State
+- A Shared data tructure that holds the current info or context of app
+- The application's memory
