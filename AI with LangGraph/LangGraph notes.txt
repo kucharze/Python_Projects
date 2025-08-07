@@ -39,3 +39,16 @@ Tools
 - Specialized functions or utilities that nodes can utilize to perform specfic tasks such as fetching data from an API
 - Enhance the capabilites of nodes by providing addtional fnctionalites
 - Nodes are part of graph structure, while tools are functionalities used with nodes
+
+ToolNode
+- A special kind of node who's main job is to run a tool.
+- Connects the tool's output back into the State, so other nodes can use that info
+
+StateGraph
+- A class used to build and compile the graph structure
+- Manages nodes, edges, and the overall state.
+- Ensures that the workflow operates in a unified way and that data flows correctly between components
+
+Runnable
+- A standardized executable component that performs a specific task within an AI workflow
+- Serves as a fundamental building block, allowing for us to create modular systems
