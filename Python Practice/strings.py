@@ -3,3 +3,6 @@
 
 name = "Root Admin User"
 print(len(name)) # Prints the length of the string. The len() function returns the number of characters in a string.
+
+print(name.upper()) # Converts the string to uppercase. The upper() method returns a new string with all characters in uppercase.
+print(name.lower()) # Converts the string to lowercase. The lower() method returns a new string with all characters in lowercase.
