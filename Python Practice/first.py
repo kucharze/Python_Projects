@@ -42,3 +42,12 @@ if 12>45:
 
 #Strings
 #Booleans
+
+a = 78
+print(type(a))
+
+b = "Hello"
+print(type(b))
+
+c = 12345.56
+print(type(c))
