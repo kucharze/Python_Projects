@@ -51,3 +51,8 @@ print(type(b))
 
 c = 12345.56
 print(type(c))
+
+#lists
+#tuples
+#sets
+#dictionaries
