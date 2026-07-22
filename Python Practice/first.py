@@ -22,6 +22,9 @@ print("Hello World") # This is a single-line comment
 x = 5 # Assigns the value 5 to the variable x
 print(x)
 
+acc=3467436767 # = is the assignment operator. It assigns the value on the right to the variable on the left.
+print(acc)
+
 print(12+8) # A Python statement is a line of code that performs an action. In this case, the statement adds 12 and 8 and prints the result.
 
 #A more complex statement
