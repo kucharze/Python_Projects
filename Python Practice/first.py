@@ -23,3 +23,7 @@ x = 5 # Assigns the value 5 to the variable x
 print(x)
 
 print(12+8) # A Python statement is a line of code that performs an action. In this case, the statement adds 12 and 8 and prints the result.
+
+#A more complex statement
+if 12>45:
+    print("12 is greater than 45")
