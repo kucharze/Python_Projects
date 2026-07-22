@@ -13,3 +13,7 @@ print("Hello World,\t I am learning Python programming")#Prints Hello World and 
 # You can use the # symbol to create a single-line comment, or triple quotes (""" """) to create a multi-line comment.
 #The below print func prints Hellow world
 print("Hello World") # This is a single-line comment
+
+# print(12 + 90) # Prints the sum of 12 and 90
+
+#Variables
