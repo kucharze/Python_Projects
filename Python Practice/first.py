@@ -17,3 +17,9 @@ print("Hello World") # This is a single-line comment
 # print(12 + 90) # Prints the sum of 12 and 90
 
 #Variables
+#A container that stores data
+
+x = 5 # Assigns the value 5 to the variable x
+print(x)
+
+print(12+8) # A Python statement is a line of code that performs an action. In this case, the statement adds 12 and 8 and prints the result.
