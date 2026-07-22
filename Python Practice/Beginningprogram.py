@@ -7,3 +7,4 @@ print("12+8")#Prints a string. Strings are always enclosed in quotes. You can us
 
 #Escape sequences are used to represent special characters in strings. For example, \n represents a new line, and \t represents a tab.
 print("Hello World,\n I am learning Python programming")#Prints Hello World and I am learning Python programming on separate lines
+print("Hello World,\t I am learning Python programming")#Prints Hello World and I am learning Python programming with a tab
