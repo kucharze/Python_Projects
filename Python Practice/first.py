@@ -33,6 +33,8 @@ if 12>45:
 
 
 #Data types
+#Python will automatically assign a data type to a variable based on the value you assign to it.
+# You can also explicitly specify the data type of a variable using type casting.
 #Python has the following data types:
 #Numbers
 # - Integers
