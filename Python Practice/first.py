@@ -30,3 +30,13 @@ print(12+8) # A Python statement is a line of code that performs an action. In t
 #A more complex statement
 if 12>45:
     print("12 is greater than 45")
+
+
+#Data types
+#Python has the following data types:
+#Numbers
+# - Integers
+# - Floats
+
+#Strings
+#Booleans
