@@ -8,3 +8,6 @@ print("12+8")#Prints a string. Strings are always enclosed in quotes. You can us
 #Escape sequences are used to represent special characters in strings. For example, \n represents a new line, and \t represents a tab.
 print("Hello World,\n I am learning Python programming")#Prints Hello World and I am learning Python programming on separate lines
 print("Hello World,\t I am learning Python programming")#Prints Hello World and I am learning Python programming with a tab
+
+# Comments are used to explain code and make it more readable. Comments are ignored by the Python interpreter. 
+# You can use the # symbol to create a single-line comment, or triple quotes (""" """) to create a multi-line comment.
