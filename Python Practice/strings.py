@@ -45,3 +45,6 @@ print(f"Name: {name}, ID: {id}")# Example of an f-string. The f-string allows us
 print(f'Performing math: 5 + 4 = {5 + 4}')# Example of an f-string, inserting a mathematical expression inside the string literal. 
 # The expression 5 + 4 is evaluated and the result is inserted into the string literal.
 
+print(f"Math division: 49/15 = {49/15:.2f}") # Example of an f-string, inserting a mathematical expression inside the string literal.
+# The expression 49/15 is evaluated and the result is inserted into the string literal. The result is formatted to two decimal places.
+
