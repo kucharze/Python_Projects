@@ -29,3 +29,7 @@ print(name.count("root")) # Counts the number of occurrences of a substring. The
 print("len of string before appluing strip function: ", len(name)) # Prints the length of the string before applying the strip() method.
 print(name.strip()) # Removes leading and trailing whitespace from the string. The strip() method returns a new string with leading and trailing whitespace removed.
 print("len of string after appluing strip function: ", len(name.strip())) # Prints the length of the string after applying the strip() method.
+
+#Variants of strip() method are lstrip() and rstrip(). lstrip() removes leading whitespace, and rstrip() removes trailing whitespace.
+print(name.lstrip()) # Removes leading whitespace from the string. The lstrip() method returns a new string with leading whitespace removed.
+print(name.rstrip()) # Removes trailing whitespace from the string. The rstrip() method returns a new string with trailing whitespace removed.
