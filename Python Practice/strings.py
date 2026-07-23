@@ -15,3 +15,6 @@ print(name.replace("Admin", "Super Admin")) # Replaces a substring with another 
 #String slicing is a way to extract a portion of a string. You can use the slice operator [] to extract a substring from a string. The slice operator takes two arguments: the start index and the end index. The start index is inclusive, and the end index is exclusive.
 print(name[0:4]) # Prints the first four characters of the string. The slice operator [0:4] extracts the substring from index 0 to index 4 (exclusive).
 print(name[5:10]) # Prints the characters from index 5 to index 10 (exclusive).
+
+url="https://google.com"
+print(url[8:13]) # Prints the characters from index 8 to index 13 (exclusive).
