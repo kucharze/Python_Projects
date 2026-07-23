@@ -23,5 +23,9 @@ print(url[:-4]) # Prints the characters from the beginning of the string to inde
 
 print(url[8:-4]) # Prints the characters from index 8 to index -4 (exclusive). The slice operator [8:-4] extracts the substring from index 8 to index -4 (exclusive).
 
-name = "Root user root admin"
+name = " Root user root admin "
 print(name.count("root")) # Counts the number of occurrences of a substring. The count() method returns the number of occurrences of a substring in a string.
+
+print("len of string before appluing strip function: ", len(name)) # Prints the length of the string before applying the strip() method.
+print(name.strip()) # Removes leading and trailing whitespace from the string. The strip() method returns a new string with leading and trailing whitespace removed.
+print("len of string after appluing strip function: ", len(name.strip())) # Prints the length of the string after applying the strip() method.
