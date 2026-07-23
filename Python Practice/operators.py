@@ -13,16 +13,18 @@
 # the // operator is used for floor division (returns the largest integer less than or equal to the result), 
 # and the ** operator is used for exponentiation (raises a number to a power).
 
+a = 5
+b = 3
 #Basic arithmetic operations
-print(5 + 3) # Addition
-print(5 - 3) # Subtraction
-print(5 * 3) # Multiplication
-print(5 / 3) # Division
+print(a + b) # Addition
+print(a - b) # Subtraction
+print(a * b) # Multiplication
+print(f"Division: {a / b:.2f}") # Division
 
 #Advanced arithmetic operations
-print(5 % 3) # Modulus
-print(5 // 3) # Floor division
-print(5 ** 3) # Exponentiation
+print(a % b) # Modulus
+print(a // b) # Floor division
+print(a ** b) # Exponentiation
 
 #Assignment Operators
 # =, +=, -=, *=, /=, %=, //=, **=, &=, |=, ^=, >>=, <<=
