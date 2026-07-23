@@ -6,3 +6,4 @@ print(len(name)) # Prints the length of the string. The len() function returns t
 
 print(name.upper()) # Converts the string to uppercase. The upper() method returns a new string with all characters in uppercase.
 print(name.lower()) # Converts the string to lowercase. The lower() method returns a new string with all characters in lowercase.
+print(name.capitalize())# Capitalizes the first character of the string. The capitalize() method returns a new string with the first character in uppercase and the rest in lowercase.
