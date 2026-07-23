@@ -18,6 +18,20 @@
 
 #Comparison Operators (Also know as Relational Operators)
 # ==, !=, >, <, >=, <=
+#Compare two values and return a boolean value (True or False) based on the comparison.
 
 #Logical Operators
 # and, or, not
+
+
+# Not convered in video.
+#Bitwise Operators
+# &, |, ^, ~, <<, >>
+# Bitwise operators are used to perform operations on binary numbers. 
+# They operate on the individual bits of the numbers. 
+# The & operator is used for bitwise AND, 
+# the | operator is used for bitwise OR, 
+# the ^ operator is used for bitwise XOR, 
+# the ~ operator is used for bitwise NOT, 
+# the << operator is used for left shift, 
+# and the >> operator is used for right shift.
