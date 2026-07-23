@@ -36,3 +36,9 @@ print(name.rstrip()) # Removes trailing whitespace from the string. The rstrip()
 
 
 #String formating
+# Allows us to insert variables into strings. There are several ways to format strings in Python. The most common way is to use f-strings (formatted string literals). 
+# F-strings are prefixed with the letter 'f' and allow us to embed expressions inside string literals using curly braces {}.
+
+name =  "Root Admin User"
+id = 1000
+print(f"Name: {name}, ID: {id}")# Example of an f-string. The f-string allows us to embed the variables name and id inside the string literal.
