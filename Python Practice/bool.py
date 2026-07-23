@@ -1,4 +1,4 @@
 #Boolean data types
 #Python has the following boolean data types:
-#True
-#False
+#True 1
+#False 0
