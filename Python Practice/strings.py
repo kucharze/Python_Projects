@@ -11,3 +11,7 @@ print(name.title())# Converts the string to title case. The title() method retur
 
 print(name.find("Admin")) # Returns the index of the first occurrence of a substring. The find() method returns -1 if the substring is not found.
 print(name.replace("Admin", "Super Admin")) # Replaces a substring with another substring. The replace() method returns a new string with the substring replaced.
+
+#String slicing is a way to extract a portion of a string. You can use the slice operator [] to extract a substring from a string. The slice operator takes two arguments: the start index and the end index. The start index is inclusive, and the end index is exclusive.
+print(name[0:4]) # Prints the first four characters of the string. The slice operator [0:4] extracts the substring from index 0 to index 4 (exclusive).
+print(name[5:10]) # Prints the characters from index 5 to index 10 (exclusive).
