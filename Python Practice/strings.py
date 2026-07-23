@@ -7,3 +7,7 @@ print(len(name)) # Prints the length of the string. The len() function returns t
 print(name.upper()) # Converts the string to uppercase. The upper() method returns a new string with all characters in uppercase.
 print(name.lower()) # Converts the string to lowercase. The lower() method returns a new string with all characters in lowercase.
 print(name.capitalize())# Capitalizes the first character of the string. The capitalize() method returns a new string with the first character in uppercase and the rest in lowercase.
+print(name.title())# Converts the string to title case. The title() method returns a new string with the first character of each word in uppercase and the rest in lowercase.
+
+print(name.find("Admin")) # Returns the index of the first occurrence of a substring. The find() method returns -1 if the substring is not found.
+print(name.replace("Admin", "Super Admin")) # Replaces a substring with another substring. The replace() method returns a new string with the substring replaced.
