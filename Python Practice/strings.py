@@ -18,3 +18,5 @@ print(name[5:10]) # Prints the characters from index 5 to index 10 (exclusive).
 
 url="https://google.com"
 print(url[8:13]) # Prints the characters from index 8 to index 13 (exclusive).
+print(url[:-4]) # Prints the characters from the beginning of the string to index -4 (exclusive). The negative index counts from the end of the string.
+#4 characters from the right of the string are removed. The slice operator [:-4] extracts the substring from the beginning of the string to index -4 (exclusive).
