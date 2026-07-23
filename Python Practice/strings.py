@@ -48,3 +48,7 @@ print(f'Performing math: 5 + 4 = {5 + 4}')# Example of an f-string, inserting a 
 print(f"Math division: 49/15 = {49/15:.2f}") # Example of an f-string, inserting a mathematical expression inside the string literal.
 # The expression 49/15 is evaluated and the result is inserted into the string literal. The result is formatted to two decimal places.
 
+print("My name is {}".format(name)) # Example of using the format() method to format a string. 
+# The format() method allows us to insert variables into strings using curly braces {} as placeholders.
+# Can't be used with the f-string method. The format() method is an older way to format strings in Python, but it is still widely used.
+
