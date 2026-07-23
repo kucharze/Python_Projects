@@ -13,6 +13,17 @@
 # the // operator is used for floor division (returns the largest integer less than or equal to the result), 
 # and the ** operator is used for exponentiation (raises a number to a power).
 
+#Basic arithmetic operations
+print(5 + 3) # Addition
+print(5 - 3) # Subtraction
+print(5 * 3) # Multiplication
+print(5 / 3) # Division
+
+#Advanced arithmetic operations
+print(5 % 3) # Modulus
+print(5 // 3) # Floor division
+print(5 ** 3) # Exponentiation
+
 #Assignment Operators
 # =, +=, -=, *=, /=, %=, //=, **=, &=, |=, ^=, >>=, <<=
 
