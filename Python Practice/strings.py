@@ -42,3 +42,6 @@ print(name.rstrip()) # Removes trailing whitespace from the string. The rstrip()
 name =  "Root Admin User"
 id = 1000
 print(f"Name: {name}, ID: {id}")# Example of an f-string. The f-string allows us to embed the variables name and id inside the string literal.
+print(f'Performing math: 5 + 4 = {5 + 4}')# Example of an f-string, inserting a mathematical expression inside the string literal. 
+# The expression 5 + 4 is evaluated and the result is inserted into the string literal.
+
