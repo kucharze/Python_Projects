@@ -1,0 +1,1 @@
+#Operators - symbols that are used to perform specific mathmatical and logical operations on variables and values.
