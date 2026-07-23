@@ -19,10 +19,12 @@
 #Comparison Operators (Also know as Relational Operators)
 # ==, !=, >, <, >=, <=
 #Compare two values and return a boolean value (True or False) based on the comparison.
+# Often used in if statements and loops
 
 #Logical Operators
 # and, or, not
-
+# Combine multiple boolean expressions and return a boolean value based on the logical operation.
+# Often used in if statements and loops
 
 # Not convered in video.
 #Bitwise Operators
